@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaume Llinàs</title>
+    <script src="https://kit.fontawesome.com/c3c63f74a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .list-with-bullets {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .skill-title {
+            background-color: #dbeafe;
+            color: #1e3a8a;
+            display: inline-block;
+        }
+
+        .skill-underline {
+            display: block;
+            max-width: 130px;
+            box-shadow: inset 0 -0.6em 0 #dbeafe;
+            margin: 0 auto;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #dbeafe;
+            color: #1e3a8a;
+            margin-top: auto;
+        }
+
+        .card-image img {
+            width: 100%;
+        }
+
+        /* Estilos responsive */
+        @media screen and (max-width: 768px) {
+            .columns {
+                flex-direction: column;
+            }
+
+            .pl-6 {
+                padding-left: 1rem !important;
+            }
+
+            .pr-5 {
+                padding-right: 1rem !important;
+            }
+
+            .card-image img {
+                width: auto;
+                height: auto;
+            }
+
+            .card-content {
+                text-align: center;
+            }
+
+            .ajustes-mobile {
+                text-align: left;
+            }
+
+            .ajustes-mobile h2 {
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+
+            .ajustes-mobile h3 {
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+
+            .ajustes-mobile p {
+                margin-bottom: 15px;
+            }
+
+            .ajustes-mobile-notifs {
+                padding: 1rem;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .skill-title {
+                background-color: #1e3a8a;
+                color: #dbeafe;
+                border-radius: 10px;
+                display: inline-block;
+            }
+
+            .footer {
+                width: 100%;
+                background-color: #1e3a8a;
+                color: #dbeafe;
+                margin-top: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="pl-6 pt-5 pb-5 pr-5">
+        <div class="columns is-multiline">
+            <div class="column is-one-quarter-desktop is-full-mobile is-half-tablet pt-5">
+                <div class="card">
+                    <header class="card-image">
+                        <img src="files/img/pfp.png" alt="Fotografía de perfil de Jaume Llinàs">
+                    </header>
+                    <div class="card-content">
+                        <h1 class="title mb-1">Jaume Llinàs</h1>
+                        <h1 class="subtitle is-size-5"><i class="fa-solid fa-map-pin mr-3"></i>Mallorca, España</h1>
+                    </div>
+                </div>
+                <aside class="menu ml-2">
+                    <p class="menu-label">
+                        DATOS DE CONTACTO
+                    </p>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="tel:636652982"><i class="fa fa-phone mr-3"></i> 636 65 29 82</a>
+                            <a href="mailto:jaume@llinassanso.com"><i class="fa fa-envelope mr-3"></i> jaume@llinassanso.com</a>
+                            <a href="https://www.linkedin.com/in/jaumellinas"><i class="fa fa-linkedin mr-3"></i> Jaume Llinàs Sansó</a>
+                            <a href="https://www.github.com/jaumellinas"><i class="fa fa-github mr-3"></i> /jaumellinas</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <section class="column is-three-quarters-desktop is-full-mobile is-half-tablet has-text-justified mt-3">
+                <section class="box"> <!-- Formación -->
+                    <h1 class="title skill-title pt-2 pb-2 pl-2 pr-4"><i class="fa-solid fa-child-reaching ml-2 mr-4"></i>¡Hola!</h1> <br>
+                    Mi nombre es <b>Jaume</b>, un apasionado de la tecnología y estudiante de <b>Desarrollo de Aplicaciones Multiplataforma</b> y <b>Administración de Sistemas Informáticos en Red</b>.
+                    <br><br>
+                    Actualmente, curso el primero de forma presencial en <b>Sant Josep Obrer</b> y el segundo de manera virtual a través del <b>Institut d'Estudis a Distància de les Illes Balears</b>. Tras finalizar estos estudios, tengo pensado seguir formándome con la carrera universitaria de <b>ingeniería informática</b>, cursada también a distancia en la <b>Universitat Oberta de Catalunya</b>.
+                    <br><br>
+                    Fuera de la pantalla, tengo <b>22 años</b> y vivo en <b>Palma de Mallorca</b>. Aunque nací y crecí en Manacor, hace menos de un año decidí mudarme a la capital para seguir creciendo académica y personalmente. Hablando de mi persona, mis pasiones van más allá del código. Me encanta la <b>música</b>, perderme en el mundo de la <b>lectura</b> y los deportes como la <b>natación</b> y el <b>tenis</b>.
+                    <br><br>
+                    Actualmente, mi objetivo es <b>seguir aprendiendo y creciendo en el ámbito profesional</b> mientras colaboro en proyectos que me desafíen y me ayuden a evolucionar. Si crees que puedo aportar algo a tu equipo o iniciativa, <b>estaré encantado de conectar y explorar nuevas oportunidades juntos</b>.
+                </section>
+                <section class="box"> <!-- Formación -->
+                    <h1 class="title skill-title pt-2 pb-2 pl-2 pr-4"><i class="fa-solid fa-user-graduate ml-2 mr-4"></i>Formación</h1>
+                    <div class="ajustes-mobile box">
+                        <h2 class="is-size-4 has-text-weight-bold">Desarrollo de Aplicaciones Multiplataforma</h2>
+                        <h3 class="has-text-weight-semibold">Grado Superior de Formación Profesional</h3>
+                        <p>Sant Josep Obrer — (2024 a 2026)</p>
+                        <div class="ajustes-mobile-notifs notification is-link is-light mt-2">
+                            <i class="fa-solid fa-trophy mr-2"></i> Matrícula de honor en la asignatura de <b>Lenguaje de Marcas</b>.
+                        </div>
+                    </div>
+                    <div class="ajustes-mobile box">
+                        <h2 class="is-size-4 has-text-weight-bold">Administración de Sistemas Informáticos en Red</h2>
+                        <h3 class="has-text-weight-semibold">Grado Superior de Formación Profesional</h3>
+                        <p>IEDIB — (2024 a 2027)</p>
+                        <div class="ajustes-mobile-notifs notification is-link is-light mt-2">
+                            <i class="fa-solid fa-trophy mr-2"></i> Matrícula de honor en la asignatura de <b>Planificación de Redes</b>.
+                        </div>
+                    </div>
+                    <div class="ajustes-mobile box">
+                        <h2 class="is-size-4 has-text-weight-bold">Sistemas Microinformáticos en Red</h2>
+                        <h3 class="has-text-weight-semibold">Grado Medio de Formación Profesional</h3>
+                        <p>IES Manacor — (2021 a 2023)</p>
+                        <div class="ajustes-mobile-notifs notification is-link is-light mt-2">
+                            <i class="fa-solid fa-trophy mr-2"></i> Matrícula de honor en la asignatura de <b>Redes locales</b>.
+                        </div>
+                    </div>
+                </section>
+                <section class="box"> <!-- Experiencia -->
+                    <h1 class="title skill-title pt-2 pb-2 pl-2 pr-4"><i class="fa-solid fa-business-time ml-2 mr-4"></i>Experiencia</h1>
+                    <div class="ajustes-mobile box">
+                        <h2 class="is-size-4 has-text-weight-bold">Prácticas</h2>
+                        <h3 class="has-text-weight-semibold">Técnico en Sistemas Microinformáticos</h3>
+                        <h3 class="mb-2">IES Mossèn Alcover (2023)</h3>
+                        <ul class="list-with-bullets has-text-left">
+                            <li>Instalación y mantenimiento de equipos informáticos.</li>
+                            <li>Configuración de redes y servidores.</li>
+                            <li>Soporte técnico a profesores y alumnos.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="box mb-2"> <!-- Skills -->
+                    <h1 class="title skill-title pt-2 pb-2 pl-2 pr-4"><i class="fa-solid fa-star ml-2 mr-4"></i>Skills</h1>
+                    <div class="columns is-multiline">
+                        <div class="column is-half-desktop is-full-mobile">
+                            <h2 class="skill-underline is-size-4 has-text-weight-bold mb-4 has-text-centered">Soft skills</h2>
+                            <div class="ajustes-mobile box">
+                                <div class="box mb-5">
+                                    <h3 class="has-text-weight-bold skill-title pl-1 pr-1 mb-1">Comunicación</h3>
+                                    <p>Grandes habilidades sociales.</p>
+                                </div>
+                                <div class="box mb-5">
+                                    <h3 class="has-text-weight-bold skill-title pl-1 pr-1 mb-1">Flexibilidad</h3>
+                                    <p>Gran facilidad para adaptarse al entorno.</p>
+                                </div>
+                                <div class="box mb-1">
+                                    <h3 class="has-text-weight-bold skill-title pl-1 pr-1 mb-1">Productividad</h3>
+                                    <p>Especialista en optimizar procesos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-half-desktop is-full-mobile">
+                            <h2 class="skill-underline is-size-4 has-text-weight-bold mb-4 has-text-centered">Hard skills</h2>
+                            <div class="box pb-5">
+                                <h3 class="has-text-weight-bold mb-1">CSS Vanilla</h3>
+                                <progress class="progress is-link" value="95" max="100"></progress>
+                                <h3 class="has-text-weight-bold mb-1">Figma</h3>
+                                <progress class="progress is-link" value="85" max="100"></progress>
+                                <h3 class="has-text-weight-bold mb-1">Bulma</h3>
+                                <progress class="progress is-link" value="70" max="100"></progress>
+                                <h3 class="has-text-weight-bold mb-1">Tailwind</h3>
+                                <progress class="progress is-link" value="55" max="100"></progress>
+                                <h3 class="has-text-weight-bold mb-1">Flask</h3>
+                                <progress class="progress is-link" value="90" max="100"></progress>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+</div>
+<footer class="footer has-text-centered p-2">
+    © 2025 por <b>Jaume Llinàs</b>. Creado para la asignatura de <b>Lenguaje de Marcas</b>.
+</footer>
+</body>
+</html>
